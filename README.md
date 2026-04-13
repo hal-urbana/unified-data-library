@@ -232,9 +232,23 @@ for message in consumer:
 - **Producer Timeouts**: Increase `request.timeout.ms` or check broker availability
 - **Schema Incompatibility**: Verify schema compatibility before producing
 
-## Host Endpoints and Authentication
+## Project Timeline
 
-*To be provided by David Trepp.*
+- **2026-04-09**: Initial project setup and architecture definition.
+- **2026-04-12**: David Trepp confirmed the exact project name as "Unified Data Library" and verified it as a message broker using Kafka. Awaiting host endpoints and authentication details.
+
+## Host Endpoints and Authentication
+- **Endpoints**: [Awaiting confirmation from David Trepp]
+- **Authentication**: [Awaiting confirmation from David Trepp]
+
+## Research & Domain Context
+Based on confirmed requirements, the Unified Data Library (UDL) acts as a centralized Kafka-based message backbone. 
+
+### Key Advantages
+1. **Durability**: Guaranteed message persistence via distributed logs.
+2. **Scalability**: Horizontal scaling through partitioning.
+3. **Decoupling**: Independent evolution of producers and consumers.
+4. **Replayability**: Support for re-processing historical data streams.
 
 ## Next Steps
 
