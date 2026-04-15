@@ -236,6 +236,7 @@ for message in consumer:
 
 - **2026-04-09**: Initial project setup and architecture definition.
 - **2026-04-14**: David Trepp provided clarification on the project name and nature ("Unified Data Library", Kafka message broker). Awaiting host endpoints and authentication details. Generated project slug: `unified-data-library`. Created `configs/` directory with placeholders.
+- **2026-04-15**: Received further confirmation from David Trepp regarding the exact name "Unified Data Library" and its role as a Kafka message broker. Awaiting endpoints and auth info.
 
 ## Host Endpoints and Authentication
 - **Endpoints**: [Awaiting confirmation from David Trepp]
