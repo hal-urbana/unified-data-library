@@ -1,0 +1,12 @@
+# Unified Data Library - Host Endpoints and Authentication
+# This file will be populated once David Trepp provides the Kafka broker addresses and credentials.
+
+kafka:
+  bootstrap_servers: [] # To be provided by David Trepp
+  authentication:
+    mechanism: "SASL_SCRAM" # Default assumption, to be confirmed
+    username: ""
+    password: ""
+  tls:
+    enabled: true
+    ca_cert: ""
